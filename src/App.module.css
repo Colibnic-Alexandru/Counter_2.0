@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(350px, auto);
+
+  gap: 2rem;
+
+  font-size: 1.5rem;
+  margin: 50px;
+}

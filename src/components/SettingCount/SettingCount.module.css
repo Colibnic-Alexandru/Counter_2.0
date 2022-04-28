@@ -1,0 +1,65 @@
+.container {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    width: 350px;
+    height: 350px;
+    justify-self: end;
+
+    text-align: center;
+    align-items: center;
+
+    border: 3px solid black;
+    border-radius: 15px;
+    background: #CCFFFF;
+}
+
+.values {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 30px 0 30px 0;
+}
+
+.startValue {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.maxValue {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+.inputStyle {
+    width: 100px;
+    text-align: center;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.inputStyleRed {
+    width: 100px;
+    text-align: center;
+    outline: none;
+    border: 3px solid darkred;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: darkred;
+    background: #f6b3b3;
+}
+
+
+.button button{
+    width: 150px;
+    color: black;
+}
