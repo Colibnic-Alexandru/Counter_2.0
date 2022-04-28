@@ -25,3 +25,5 @@ yarn-error.log*
 # Project exclude paths
 /.yarn/
 /.pnp.cjs
+
+/.idea*
